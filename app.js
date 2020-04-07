@@ -34,6 +34,15 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+
+    //主题控制
+    globalBGColor: '#00afb4',
+    bgRed: 0,
+    bgGreen: 175,
+    bgBlue: 180,
+
+    //域名名称
+    subDomain: 'weiye',
   }
 })
