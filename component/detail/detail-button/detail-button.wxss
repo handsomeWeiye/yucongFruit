@@ -1,0 +1,16 @@
+/* component/detail/detail-button/detail-button.wxss */
+
+.container {
+    width: 95%;
+    height: 60rpx;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.custom-class {
+  width: 350rpx !important;
+  height: 60rpx !important;
+  margin: 2rpx;
+}

@@ -1,0 +1,10 @@
+<detail-swiper goodsDetail="{{goodsDetail}}"></detail-swiper>
+<detail-info  goodsDetail="{{goodsDetail}}"></detail-info>
+<detail-button bind:isDetailVal="getIsDetail"></detail-button>
+<view wx:if="{{isDetail}}">
+    <detail-html html="{{goodsDetail.content}}"></detail-html>
+</view>
+<view wx:else>
+    <detail-comment comment="{{goodsReputation}}"></detail-comment>
+</view>
+<detail-bottom></detail-bottom>

@@ -1,0 +1,10 @@
+
+  <block wx:for-items="{{comments}}" wx:key="name">
+  <text class="text-remark">{{item.body}}</text>
+  <text class="text-remark">{{item.createdAt}}</text>
+  <text class="text-remark">{{item.nickName}}</text>
+  <!-- <image class="image_detail" src="{{item}}" /> -->
+  </block>
+  <view class="separate"></view>
+
+  <view class="temp"></view>

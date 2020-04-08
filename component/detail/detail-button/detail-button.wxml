@@ -1,0 +1,4 @@
+<view class="container">
+    <van-button type="info" bindtap="selectDetail" custom-class="custom-class">详情</van-button>
+    <van-button type="primary"  bindtap="selectComment" custom-class="custom-class">评价</van-button>
+</view>

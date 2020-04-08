@@ -1,0 +1,11 @@
+.container {
+    width: 95%;
+    height: 60rpx;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/* pages/index.wxss */

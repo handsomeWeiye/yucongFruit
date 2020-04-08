@@ -1,0 +1,15 @@
+text {
+    display: block;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 30rpx;
+    margin: 10rpx;
+  }
+  .text-remark {
+    display: block;
+    font-size: 25rpx;
+    margin: 10rpx;
+  }
+  .temp {
+    height: 100rpx;
+  }

@@ -1,0 +1,32 @@
+<van-popup show="{{ isPopUpShow }}" bind:close="closePopUp" position="bottom" custom-style="height:40%;">
+    <view class="info">
+        <van-image src="{{goodsDetail.basicInfo.pic}}" fit="contain" width="100" height="100"></van-image>
+        <view class="word">
+            <text class="title">{{goodsDetail.basicInfo.title}}</text>
+            <text class="price">{{goodsDetail.basicInfo.minPrice}}</text>
+        </view>
+    </view>
+    <view class="split"></view>
+    <view class="specification">
+        <text class="title">规格</text>
+        <view class="choiceButton" style="direction: row;">
+        <block wx:for="{{goodsDetail.properties}}" wx:for-item="property" wx:for-index="idx" wx:key="id">
+          <view>{{property.name}}</view>
+          <!-- <view class="label-item-box">
+            <view class="label-item {{item.active ? 'active' : '' }}" wx:for="{{property.childsCurGoods}}" wx:key="id" bindtap="labelItemTap" data-propertyindex="{{idx}}" data-propertyid="{{property.id}}" data-propertyname="{{property.name}}" data-propertychildindex="{{index}}"
+              data-propertychildid="{{item.id}}" data-propertychildname="{{item.name}}">
+              {{item.name}}
+            </view>
+          </view> -->
+        </block>
+        </view>
+    </view>
+    <view class="split"></view>
+    <view class="number" >
+        <text class="title">购买数量</text>
+        <van-stepper bind:change></van-stepper>
+    </view>
+    <view class="button">
+        <van-button type="warning" size="large">{{}}</van-button>
+    </view>
+</van-popup>

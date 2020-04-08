@@ -1,4 +1,4 @@
-// component/detail-swiper.js
+// component/detail/detail-bottom/detail-bottom.js
 Component({
   /**
    * 组件的属性列表
@@ -18,6 +18,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    onClickIcon() {
+      Toast('点击图标');
+    },
+  
+    onClickButton() {
+      Toast('点击按钮');
+    }
 
   }
 })

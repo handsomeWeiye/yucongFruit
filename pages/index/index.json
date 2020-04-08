@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "detail-swiper": "../../component/detail/detail-swiper/detail-swiper",
+        "detail-info": "../../component/detail/detail-info/detail-info",
+        "detail-button": "../../component/detail/detail-button/detail-button",
+        "detail-html": "../../component/detail/detail-html/detail-html",
+        "detail-comment": "../../component/detail/detail-comment/detail-comment",
+        "detail-bottom": "../../component/detail/detail-bottom/detail-bottom"
+    }
+}
